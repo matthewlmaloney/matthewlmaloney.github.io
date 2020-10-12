@@ -1,18 +1,25 @@
 body{
-    background:burlywood;
+    background:#C4D9BA;
     font-family:Arial, Helvetica, sans-serif;
 }
 .assignment{
     display:flex;
     padding:10px;
     margin:10px;
-    background:gray;
+    background:#A4B3BF;
 }
 .assignment img{
     width: 200px;
-    padding: 10px;
+    margin-right:25;
+    border: 2px solid #006400;
 }
 h2{
-    color:darkred;
+    color:#022601;
     text-align:center;
+}
+
+a
+{
+    text-decoration: none;
+    color: ##D3D930;
 }
