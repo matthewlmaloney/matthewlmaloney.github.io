@@ -2,10 +2,15 @@ body{
     background:#C4D9BA;
     font-family:Arial, Helvetica, sans-serif;
 }
+.assignments{
+    display: flex;
+    flex-wrap:wrap;
+}
 .assignment{
-    display:flex;
+    width:30%;
     padding:10px;
     margin:10px;
+    margin-bottom:30px;
     background:#A4B3BF;
     border-radius:5px;
     box-shadow:5px 10px darkgreen;
@@ -15,7 +20,8 @@ body{
     margin-right:25;
     border: 2px solid #006400;
     border-radius:5px;
-    box-shadow:5px 10px darkgreen;
+    display:block;
+    margin:auto;
 }
 h2{
     color:#022601;
